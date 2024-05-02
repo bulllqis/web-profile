@@ -1,0 +1,10 @@
+runtime: python39
+
+handlers:
+- url: /
+  static_files: web-profile/index.html
+  upload: web-profile/index.html
+
+- url: /(.*)
+  static_files: web-profile/\1
+  upload: web-profile/(.*)
