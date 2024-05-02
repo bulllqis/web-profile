@@ -1,0 +1,112 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: transparent;
+    top: 0;
+    z-index: 1;
+    
+}
+.highlight {
+    margin-left: 50px;
+    font: 700 18px/1.79 "Comfortaa", Helvetica, Arial, serif;
+    color: #25282b;
+}
+.subtitle {
+    
+    font: 700 20px/1.35 "Nunito", Helvetica, Arial, serif;
+    color: #1f0549;
+}
+.title {
+    margin: 0;
+    font: 700 40px/1.2 "Playfair Display", Helvetica, Arial, serif;
+    color: #333333;
+}
+
+.medium_title {
+   
+    font: 400 18px/1.5 "Nunito", Helvetica, Arial, serif;
+    color: #828282;
+}
+.jumbotron{
+    background-color: #eff0f3;
+    width: auto;
+    height: 670px;
+    display: flex;
+    gap: 1.5rem;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.introduction{
+    flex: 5;
+    margin: 100px;
+}
+.profile{
+    flex: 2;
+}
+.horizontal-list {
+    list-style: none;
+    position: absolute;
+    top: 590px;
+    left: 5%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #A39AB1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 999;
+}
+.horizontal-list li a {
+    display: inline;
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+}
+.section-title {
+    margin-top: 700px;
+    text-align: center;
+}
+.skills{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.tools{
+    height: 100px;
+}
+.decorator {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 250px;
+    z-index: 0;
+}
+
+.cr {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    background-color: transparent;
+    font: 700 18px/1.79 "Comfortaa", Helvetica, Arial, serif;
+}
+.footer{
+    position: relative;
+    top: 250px;
+    bottom: 0px;
+
+}
